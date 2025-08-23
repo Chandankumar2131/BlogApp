@@ -12,7 +12,7 @@ exports.createComment = async (req, res) => {
         });
 
 
-        // save the neew comment into database
+        // save the new comment into database
         const saveComment = await comment.save();
         
 
